@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Analog Alarm Clock</title>
+  <link rel="icon" href="icons8-alarm-32.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="clock">
+    <div class="outer-clock-face">
+      <div class="marking marking-one"></div>
+      <div class="marking marking-two"></div>
+      <div class="marking marking-three"></div>
+      <div class="marking marking-four"></div>
+    </div>
+    <div class="inner-clock-face">
+          <div class="hand hour-hand"></div>
+    <div class="hand min-hand"></div>
+    <div class="hand second-hand"></div>
+    </div>
+    <div class="table">
+        <div class="cell">
+            <h1 id="clock1" class="clock1"></h1>
+            <select id="hours1"></select>
+            <select id="minutes1"></select>
+            <select id="seconds1"></select>
+            <select id="ampm">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+            <p>
+                <button id="snooze" class="hide">Snooze</button>
+                <button id="startstop">Set Alarm</button>
+            </p>
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
